@@ -1,5 +1,2 @@
 def solution(money):
-    result = []
-    result.append(money//5500)
-    result.append(money%5500)
-    return result
+    return [money//5500, money%5500]
