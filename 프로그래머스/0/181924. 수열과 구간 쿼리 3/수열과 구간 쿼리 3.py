@@ -1,7 +1,4 @@
 def solution(arr, queries):
-    t = 0
-    for i in range(len(queries)):
-        t = arr[queries[i][0]]
-        arr[queries[i][0]] = arr[queries[i][1]]
-        arr[queries[i][1]] = t
+    for a,b in queries:
+        arr[a],arr[b]=arr[b],arr[a]
     return arr
