@@ -1,19 +1,3 @@
 def solution(rsp):
-    result = ""
-    for i in rsp:
-        if i == "0":
-            result += "5"
-        elif i == "2":
-            result += "0"
-        else:
-            result += "2"
-    return result
-    
-    
-    
-    
-    
-    
-    
-    
-    return answer
+    d = {'0':'5','2':'0','5':'2'}
+    return ''.join(d[i] for i in rsp)
