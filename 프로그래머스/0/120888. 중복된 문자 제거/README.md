@@ -1,6 +1,6 @@
 # [level 0] 중복된 문자 제거 - 120888 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120888) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120888?language=python3) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 04월 24일 10:06:46
+2024년 04월 24일 10:16:55
 
 ### 문제 설명
 
