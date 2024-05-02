@@ -1,2 +1,1 @@
-def solution(binomial):
-    return eval(binomial)
+solution = eval
