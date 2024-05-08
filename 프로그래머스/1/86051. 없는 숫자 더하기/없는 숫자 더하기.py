@@ -1,2 +1,2 @@
 def solution(numbers):
-    return sum([i for i in range(1, 10) if not i in numbers])
+    return 45 - sum(numbers)
