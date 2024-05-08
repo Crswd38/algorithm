@@ -1,2 +1,2 @@
 def solution(flo):
-    return int(str(flo).split(".")[0])
+    return flo//1
