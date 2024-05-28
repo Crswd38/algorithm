@@ -1,0 +1,1 @@
+print(eval('-'.join([str(sum(map(int, i.split("+")))) for i in input().split("-")])))
