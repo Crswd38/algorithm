@@ -1,0 +1,1 @@
+solution = lambda n, left, right : [max(i // n, i % n) + 1 for i in range(left, right+1)]
